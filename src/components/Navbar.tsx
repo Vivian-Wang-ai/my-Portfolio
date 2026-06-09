@@ -19,7 +19,7 @@ export default function Navbar() {
             to="/"
             className="hover:opacity-80 transition-opacity duration-200"
           >
-           <img src="/我是王娟，UI_UX设计师.png" alt="Logo" className="h-6 w-auto" />
+           <img src={import.meta.env.BASE_URL + '我是王娟，UI_UX设计师.png'} alt="Logo" className="h-6 w-auto" />
           </Link>
           <div className="flex gap-8">
             {navLinks.map((link) => (

@@ -3,203 +3,235 @@ import Footer from '@/components/Footer';
 import ProjectCard from '@/components/ProjectCard';
 import { Github, Dribbble, Linkedin } from 'lucide-react';
 
+const base = import.meta.env.BASE_URL;
+
 const projects = [
   {
     id: 1,
     title: '投融资平台',
-    image: '/投融资平台.png',
+    image: base + '投融资平台.png',
     isGif: false,
   },
   {
     id: 2,
     title: '投融资平台',
-    image: '/投融资平台1.png',
+    image: base + '投融资平台1.png',
     isGif: false,
   },
   {
     id: 3,
     title: '投融资平台',
-    image: '/投融资平台3.png',
+    image: base + '投融资平台3.png',
     isGif: false,
   },
   {
     id: 4,
     title: '组件库优化',
-    image: '/组件库优化.png',
+    image: base + '组件库优化.png',
     isGif: false,
   },
   {
     id: 5,
     title: '投融资平台',
-    image: '/拷投融资平台4.png',
+    image: base + '拷投融资平台4.png',
     isGif: false,
   },
   {
     id: 5,
     title: '投融资平台',
-    image: '/投融资平台5.png',
+    image: base + '投融资平台5.png',
     isGif: false,
   },
   {
     id: 6,
     title: '投融资平台',
-    image: '/投融资平台6.png',
+    image: base + '投融资平台6.png',
     isGif: false,
   },
   {
     id: 7,
     title: '投融资平台',
-    image: '/投融资平台7.png',
+    image: base + '投融资平台7.png',
     isGif: false,
   },
   {
     id: 8,
     title: '美柏可视化大屏',
-    image: '/美柏可视化大屏5.png',
+    image: base + '美柏可视化大屏5.png',
     isGif: false,
   },
   {
     id: 9,
     title: '美柏可视化大屏',
-    image: '/美柏可视化大屏4.png',
+    image: base + '美柏可视化大屏4.png',
     isGif: false,
   },
   {
     id: 10,
     title: '美柏可视化视频',
-    image: '/美柏可视化视频.gif',
+    image: base + '美柏可视化视频.gif',
     isGif: true,
   },
   {
     id: 11,
     title: '可视化大屏',
-    image: '/可视化大屏 3.png',
+    image: base + '可视化大屏 3.png',
     isGif: false,
   },
   {
     id: 12,
     title: '挑战赛',
-    image: '/挑战赛1.png',
+    image: base + '挑战赛1.png',
     isGif: false,
   },
   {
     id: 13,
     title: '挑战赛后台',
-    image: '/挑战赛后台-2.png',
+    image: base + '挑战赛后台-2.png',
     isGif: false,
   },
   {
     id: 14,
     title: '挑战赛后台',
-    image: '/挑战赛后台-3.png',
+    image: base + '挑战赛后台-3.png',
     isGif: false,
   },
   {
     id: 15,
     title: '挑战赛',
-    image: '/挑战赛5.png',
+    image: base + '挑战赛5.png',
     isGif: false,
   },
   {
     id: 16,
     title: '挑战赛',
-    image: '/挑战赛6.png',
+    image: base + '挑战赛6.png',
     isGif: false,
   },
   {
     id: 17,
     title: '挑战赛',
-    image: '/挑战赛7.png',
+    image: base + '挑战赛7.png',
     isGif: false,
   },
   {
     id: 18,
     title: '挑战赛',
-    image: '/挑战赛8.png',
+    image: base + '挑战赛8.png',
     isGif: false,
   },
   {
     id: 19,
     title: '挑战赛',
-    image: '/挑战赛9.png',
+    image: base + '挑战赛9.png',
     isGif: false,
   },
   {
     id: 20,
     title: '挑战赛',
-    image: '/挑战赛10.png',
+    image: base + '挑战赛10.png',
     isGif: false,
   },
   {
     id: 21,
     title: '挑战赛',
-    image: '/挑战赛11.png',
+    image: base + '挑战赛11.png',
     isGif: false,
   },
   {
     id: 22,
     title: '挑战赛',
-    image: '/挑战赛12.png',
+    image: base + '挑战赛12.png',
     isGif: false,
   },
   {
     id: 23,
     title: '数据库小程序',
-    image: '/数据库小程序.png',
+    image: base + '数据库小程序.png',
     isGif: false,
   },
   {
     id: 24,
     title: '小程序线框图',
-    image: '/小程序线框图.png',
+    image: base + '小程序线框图.png',
     isGif: false,
   },
   {
     id: 25,
     title: '小程序视觉规范',
-    image: '/小程序视觉规范.png',
+    image: base + '小程序视觉规范.png',
+    isGif: false,
+  },
+  {
+    id: 33,
+    title: 'dbit-logo',
+    image: base + 'dbit-logo.mp4',
+    isVideo: true,
+  },
+  {
+    id: 34,
+    title: 'dbit',
+    image: base + 'dbit.png',
+    isGif: false,
+  },
+  {
+    id: 35,
+    title: 'Dipbit app端视觉规范',
+    image: base + 'Dipbit app端视觉规范_.png',
+    isGif: false,
+  },
+  {
+    id: 36,
+    title: 'dbit2',
+    image: base + 'dbit2.png',
+    isGif: false,
+  },
+  {
+    id: 37,
+    title: 'dbit3',
+    image: base + 'dbit3.png',
     isGif: false,
   },
   {
     id: 26,
     title: 'biochallenge',
-    image: '/biochallenge.png',
+    image: base + 'biochallenge.png',
     isGif: false,
   },
   {
     id: 27,
     title: 'cf',
-    image: '/cf.png',
+    image: base + 'cf.png',
     isGif: false,
   },
   {
     id: 28,
     title: 'cubio',
-    image: '/cubio.png',
+    image: base + 'cubio.png',
     isGif: false,
   },
   {
     id: 29,
     title: 'cf logo',
-    image: '/cf logo.png',
+    image: base + 'cf logo.png',
     isGif: false,
   },
   {
     id: 30,
     title: '挑战赛logo',
-    image: '/挑战赛logo.png',
+    image: base + '挑战赛logo.png',
     isGif: false,
   },
   {
     id: 31,
     title: 'synbio logo',
-    image: '/synbio logo.png',
+    image: base + 'synbio logo.png',
     isGif: false,
   },
   {
     id: 32,
     title: '封底',
-    image: '/封底.png',
+    image: base + '封底.png',
     isGif: false,
   },
 ];
@@ -221,7 +253,7 @@ export default function Home() {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: 'url(/封面1.png)'
+            backgroundImage: `url(${base}封面1.png)`
           }}
         ></div>
         
@@ -233,7 +265,7 @@ export default function Home() {
             王娟
           </h1>
           <img 
-            src="/Portfolio.png" 
+            src={base + 'Portfolio.png'} 
             alt="Portfolio" 
             className="w-auto h-[100px] mx-auto mb-6 animate-fade-in-up delay-100"
           />

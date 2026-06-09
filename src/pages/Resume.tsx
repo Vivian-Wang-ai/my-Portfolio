@@ -46,7 +46,7 @@ export default function Resume() {
 
           <div className="flex justify-center mb-16">
             <a
-              href="/王娟-UI设计师.pdf"
+              href={import.meta.env.BASE_URL + '王娟-UI设计师.pdf'}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 border border-white px-8 py-4 hover:bg-white hover:text-black transition-all duration-200 group"
