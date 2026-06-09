@@ -40,6 +40,11 @@ export default function Resume() {
       <section className="pt-32 pb-24">
         <div className="max-w-[1440px] mx-auto px-6">
           <div className="text-center mb-16">
+            <img 
+              src={import.meta.env.BASE_URL + '椭圆 931.png'} 
+              alt="简历封面" 
+              className="w-auto h-auto max-w-full mx-auto mb-6" 
+            />
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">简历</h1>
             <p className="text-gray-400">了解我的专业背景与技能</p>
           </div>
