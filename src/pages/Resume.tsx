@@ -43,7 +43,7 @@ export default function Resume() {
             <img 
               src={import.meta.env.BASE_URL + '椭圆 931.png'} 
               alt="简历封面" 
-              className="w-auto h-auto max-w-full mx-auto mb-6" 
+              className="max-w-[200px] max-h-[200px] mx-auto mb-6" 
             />
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">简历</h1>
             <p className="text-gray-400">了解我的专业背景与技能</p>
