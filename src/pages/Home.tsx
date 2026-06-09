@@ -291,7 +291,7 @@ export default function Home() {
           <img 
             src={base + 'Portfolio.png'} 
             alt="Portfolio" 
-            className="w-full max-w-[750px] h-auto mx-auto mb-6 animate-fade-in-up delay-100"
+            className="w-full max-w-[300px] sm:max-w-[500px] md:max-w-[750px] h-auto object-contain mx-auto mb-6 animate-fade-in-up delay-100"
           />
           <p className="text-lg md:text-xl text-white/80 max-w-xl mx-auto mb-12 animate-fade-in-up delay-200 drop-shadow">
             专注于用户体验设计与创意视觉表现，用设计讲述故事
